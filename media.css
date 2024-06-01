@@ -56,14 +56,8 @@
                 font-size: 2rem;
             }
 
-            .history {
-                max-width: 60%;
-                max-height: 30%;
-                font-size: 1rem;
-                left: 480px;
-            }
-
-            .historylist {
-                font-size: 0.75em;
+            .set img{
+                width:50%;
+                height: 50%;
             }
         }
