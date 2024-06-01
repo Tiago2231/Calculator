@@ -3,7 +3,7 @@
         @media (max-width: 600px) {
             #calculator {
                 max-width: 70%;
-                max-height: 40%;
+                max-height: 50%;
             }
 
             #display {
@@ -26,13 +26,6 @@
                 width: calc(100% - 10px); 
                 height: 35px; 
                 font-size: 1rem; 
-
-            .history {
-                max-width: 55%;
-                max-height: 40%;
-                font-size: 0.8rem;
-                left: 120px;
-            }
         }
     }
 
