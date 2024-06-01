@@ -1,0 +1,72 @@
+ 
+        /* Mobile view */
+        @media (max-width: 600px) {
+            #calculator {
+                max-width: 70%;
+                max-height: 40%;
+            }
+
+            #display {
+                font-size: 1.5rem;
+                padding: 5px;
+            }
+
+            button {
+                width: 50px;
+                height: 30px;
+                font-size: 0.75rem;
+            }
+
+            #keys {
+                gap: 10px;
+                padding: 15px;
+            }
+
+            .equals-btn {
+                width: calc(100% - 10px); 
+                height: 35px; 
+                font-size: 1rem; 
+
+            .history {
+                max-width: 55%;
+                max-height: 40%;
+                font-size: 0.8rem;
+                left: 120px;
+            }
+        }
+    }
+
+        /* Tablet view */
+        @media (min-width: 601px) and (max-width: 900px) {
+            #calculator {
+                max-width: 90%;
+                max-height: 90%;
+            }
+
+            #display {
+                font-size: 2rem;
+                padding: 15px;
+            }
+
+            button {
+                font-size: 1.5rem;
+                padding: 15px 0;
+            }
+
+            .equals-btn {
+                width: calc(100% - 20px); 
+                height: 55px; 
+                font-size: 2rem;
+            }
+
+            .history {
+                max-width: 60%;
+                max-height: 30%;
+                font-size: 1rem;
+                left: 480px;
+            }
+
+            .historylist {
+                font-size: 0.75em;
+            }
+        }
